@@ -1,4 +1,4 @@
-﻿using BasicInventory.Application.Service.IService;
+﻿using Application.Service.IService;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInventory.Application.Service
+namespace Application.Service
 {
     public class ClaimService : IClaimService
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInventory.Application
+namespace Application
 {
     public class RoleConfiguration : IEntityTypeConfiguration<IdentityRole>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInventory.Application.Service.IService
+namespace Application.Service.IService
 {
     public interface IClaimService
     {

@@ -1,11 +1,11 @@
-﻿using BasicInventory.Application.Model;
+﻿using Application.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInventory.Application.Service.IService
+namespace Application.Service.IService
 {
     public interface IAuthManager
     {

@@ -1,4 +1,4 @@
-﻿using BasicInventory.Application.Service.IService;
+﻿using Application.Service.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Claims;
-using BasicInventory.Application.Model;
-using BasicInventory.Entities;
+using Application.Model;
+using Entities;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 
-namespace BasicInventory.Application.Service
+namespace Application.Service
 {
     public class AuthManager : IAuthManager
     {

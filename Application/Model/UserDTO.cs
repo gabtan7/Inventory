@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicInventory.Application.Model
+namespace Application.Model
 {
     public class LoginUserDTO
     {

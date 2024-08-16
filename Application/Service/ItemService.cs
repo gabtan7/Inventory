@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
-using BasicInventory.Application.Model;
-using BasicInventory.Application.Service.IService;
-using BasicInventory.DataAccess.Data;
-using BasicInventory.DataAccess.Repository;
-using BasicInventory.Entities;
-using BasicInventory.Utility;
+using Application.Model;
+using Application.Service.IService;
+using DataAccess.Data;
+using DataAccess.Repository;
+using Entities;
+using Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static BasicInventory.Application.Model.ItemDTO;
+using static Application.Model.ItemDTO;
 
-namespace BasicInventory.Application.Service
+namespace Application.Service
 {
     public class ItemService : IItemService
     {

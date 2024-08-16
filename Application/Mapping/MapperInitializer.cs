@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using BasicInventory.Application.Model;
-using BasicInventory.Entities;
+using Application.Model;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static BasicInventory.Application.Model.StockDTO;
+using static Application.Model.StockDTO;
 
-namespace BasicInventory.Application.Mapping
+namespace Application.Mapping
 {
     public class MapperInitializer : Profile
     {
